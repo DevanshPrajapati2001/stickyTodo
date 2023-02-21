@@ -22,7 +22,7 @@ const EditTask = ({open, handleClick, editTask, taskObj}) => {
   useEffect(() => {
     setTaskName(taskObj.Title)
     setDescription(taskObj.Description)
-  }, [])
+  }, [taskObj.Title, taskObj.Description])
 
   const handleEdit = (e) => {
     e.preventDefault()
