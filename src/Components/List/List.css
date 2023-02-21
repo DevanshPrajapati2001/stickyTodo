@@ -1,0 +1,14 @@
+.output-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 400px;
+    width: 100%;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 40px 90px;
+    justify-content: space-around
+}
